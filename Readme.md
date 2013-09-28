@@ -7,20 +7,12 @@ A JavaScript library providing an Xpath toolkit for manipulating the DOM.
 The current published version:
 
 ```
-npm install atropa-xpath
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-xpath.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-xpath](https://npmjs.org/package/atropa-xpath)
 
 Source code available at: [https://github.com/matthewkastor/atropa-xpath/](https://github.com/matthewkastor/atropa-xpath/)
 

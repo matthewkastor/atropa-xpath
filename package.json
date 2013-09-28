@@ -1,6 +1,6 @@
 {
     "name": "atropa-xpath",
-    "version": "2013.09.27-2334",
+    "version": "2013.09.27-2431",
     "description": "A JavaScript library providing an Xpath toolkit for manipulating the DOM.",
     "main": "./src/atropa-xpath.js",
     "directories": {
@@ -43,8 +43,8 @@
         }
     ],
     "dependencies": {
-        "atropa-header": "*",
-        "atropa-setAsOptionalArg": "*",
-        "atropa-removeNodeByReference": "*"
+        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master",
+        "atropa-setAsOptionalArg": "git+https://github.com/matthewkastor/atropa-setAsOptionalArg.git#master",
+        "atropa-removeNodeByReference": "git+https://github.com/matthewkastor/atropa-removeNodeByReference.git#master"
     }
 }
