@@ -6,7 +6,23 @@
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
+/**
+ * Required module, the docs for it are in the <code>
+ *  atropa-setAsOptionalArg/docs</code> directory where this module 
+ *  is located.
+ * @see <a href="../../../node_modules/atropa-setAsOptionalArg/docs/jsdoc/index.html">
+ * ../../../node_modules/atropa-setAsOptionalArg/docs/jsdoc/index.html</a>,
+ *  unless you installed this dependency manually.
+ */
 atropa.setAsOptionalArg = require('atropa-setAsOptionalArg').setAsOptionalArg;
+/**
+ * Required module, the docs for it are in the <code>
+ *  atropa-removeNodeByReference/docs</code> directory where this module 
+ *  is located.
+ * @see <a href="../../../node_modules/atropa-removeNodeByReference/docs/jsdoc/index.html">
+ * ../../../node_modules/atropa-removeNodeByReference/docs/jsdoc/index.html</a>,
+ *  unless you installed this dependency manually.
+ */
 atropa.removeNodeByReference = require('atropa-removeNodeByReference').removeNodeByReference;
 /// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
