@@ -20,7 +20,8 @@
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-xpath.js",
         "srcFormat": "atropa-jsformatter ./src/atropa-xpath.js ./src/atropa-xpath.js",
-        "pretest": "node dev/browserify.js"
+        "pretest": "node dev/browserify.js",
+        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
     },
     "homepage": "https://github.com/matthewkastor/atropa-xpath/",
     "bugs": "https://github.com/matthewkastor/atropa-xpath/issues",
