@@ -1,52 +1,52 @@
 {
-    "name": "atropa-xpath",
-    "version": "2013.10.13",
-    "description": "A JavaScript library providing an Xpath toolkit for manipulating the DOM.",
-    "main": "./src/atropa-xpath.js",
-    "directories": {
-        "lib": "src",
-        "doc": "docs"
-    },
-    "devDependencies": {
-        "atropa-jsformatter": ">=0.1.2",
-        "atropa-jslint": ">=0.1.2",
-        "browserify": ">=2.29.1",
-        "jasmine-node": ">=1.11.0",
-        "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
-    },
-    "scripts": {
-        "test": "jasmine-node specs/",
-        "buildBrowserModule": "node dev/browserify.js",
-        "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/",
-        "lint": "atropa-jslint ./src/atropa-xpath.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-xpath.js ./src/atropa-xpath.js",
-        "pretest": "node dev/browserify.js",
-        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/"
-    },
-    "homepage": "https://github.com/matthewkastor/atropa-xpath/",
-    "bugs": "https://github.com/matthewkastor/atropa-xpath/issues",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/matthewkastor/atropa-xpath.git"
-    },
-    "keywords": [
-        "atropa-xpath",
-        "atropa"
-    ],
-    "author": {
-        "name": "Matthew Kastor",
-        "email": "matthewkastor@gmail.com",
-        "url": "https://plus.google.com/100898583798552211130"
-    },
-    "licenses": [
-        {
-            "type": "gpl-3.0",
-            "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
-        }
-    ],
-    "dependencies": {
-        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master",
-        "atropa-setAsOptionalArg": "git+https://github.com/matthewkastor/atropa-setAsOptionalArg.git#master",
-        "atropa-removeNodeByReference": "git+https://github.com/matthewkastor/atropa-removeNodeByReference.git#master"
+  "name": "atropa-xpath",
+  "version": "2013.10.14",
+  "description": "A JavaScript library providing an Xpath toolkit for manipulating the DOM.",
+  "main": "./src/atropa-xpath.js",
+  "directories": {
+    "lib": "src",
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "atropa-jsformatter": ">=0.1.2",
+    "atropa-jslint": ">=0.1.2",
+    "browserify": ">=2.29.1",
+    "jasmine-node": ">=1.11.0",
+    "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/",
+    "buildBrowserModule": "node dev/browserify.js",
+    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/",
+    "lint": "atropa-jslint ./src/atropa-xpath.js",
+    "srcFormat": "atropa-jsformatter ./src/atropa-xpath.js ./src/atropa-xpath.js",
+    "pretest": "node dev/browserify.js",
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/"
+  },
+  "homepage": "https://github.com/matthewkastor/atropa-xpath/",
+  "bugs": "https://github.com/matthewkastor/atropa-xpath/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewkastor/atropa-xpath.git"
+  },
+  "keywords": [
+    "atropa-xpath",
+    "atropa"
+  ],
+  "author": {
+    "name": "Matthew Kastor",
+    "email": "matthewkastor@gmail.com",
+    "url": "https://plus.google.com/100898583798552211130"
+  },
+  "licenses": [
+    {
+      "type": "gpl-3.0",
+      "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
     }
+  ],
+  "dependencies": {
+    "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master",
+    "atropa-setAsOptionalArg": "git+https://github.com/matthewkastor/atropa-setAsOptionalArg.git#master",
+    "atropa-removeNodeByReference": "git+https://github.com/matthewkastor/atropa-removeNodeByReference.git#master"
+  }
 }
