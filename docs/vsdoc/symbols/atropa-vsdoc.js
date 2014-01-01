@@ -6,8 +6,8 @@
 
     window.atropa = {
         /// <summary></summary>
-        /// <field name="xpath" type="">An Xpath toolkit for manipulating the DOM.</field>
         /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        /// <field name="xpath" type="">An Xpath toolkit for manipulating the DOM.</field>
         /// <returns type="atropa"/>
                 
         supportCheck: function(className, errorMessage) {
