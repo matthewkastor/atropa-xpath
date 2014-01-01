@@ -17,11 +17,11 @@
     "scripts": {
         "test": "jasmine-node specs/",
         "buildBrowserModule": "node dev/browserify.js",
-        "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
+        "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/",
         "lint": "atropa-jslint ./src/atropa-xpath.js",
         "srcFormat": "atropa-jsformatter ./src/atropa-xpath.js ./src/atropa-xpath.js",
         "pretest": "node dev/browserify.js",
-        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
+        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/ node_modules/atropa-header/src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/"
     },
     "homepage": "https://github.com/matthewkastor/atropa-xpath/",
     "bugs": "https://github.com/matthewkastor/atropa-xpath/issues",

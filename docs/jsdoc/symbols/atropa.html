@@ -193,6 +193,8 @@ ul.inheritsList
 	
 	<li><a href="../symbols/atropa.html">atropa</a></li>
 	
+	<li><a href="../symbols/atropa.data.html">atropa.data</a></li>
+	
 	<li><a href="../symbols/atropa.xpath.html">atropa.xpath</a></li>
 	
 </ul>
@@ -215,7 +217,7 @@ ul.inheritsList
 				Container for all Glorious classes, functions, etc.
 				
 				
-					<br /><i>Defined in: </i> &lt;./node_modules/atropa-xpath/src/atropa-xpath.js&gt;.
+					<br /><i>Defined in: </i> &lt;src/atropa-xpath.js&gt;.
 				
 			</p>
 
@@ -247,12 +249,20 @@ ul.inheritsList
 			
 				
 				
-				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class atropa.">
-					<caption>Field Summary</caption>
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class atropa.">
+					<caption>Method Summary</caption>
 					<thead>
 						<tr>
-							<th scope="col">Field Attributes</th>
-							<th scope="col">Field Name and Description</th>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -260,20 +270,37 @@ ul.inheritsList
 						<tr>
 							<td class="attributes">&lt;static&gt; &nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont">
-								atropa.<b><a href="../symbols/atropa.html#.removeNodeByReference">removeNodeByReference</a></b>
+								<div class="fixedFont">atropa.<b><a href="../symbols/atropa.html#.removeNodeByReference">removeNodeByReference</a></b>(elementReference)
 								</div>
-								<div class="description">Required module, the docs for it are in the <code> atropa-removeNodeByReference/docs</code> directory where this module  is located.</div>
+								<div class="description">Removes DOM Nodes.</div>
 							</td>
 						</tr>
 					
 						<tr>
 							<td class="attributes">&lt;static&gt; &nbsp;</td>
 							<td class="nameDescription">
-								<div class="fixedFont">
-								atropa.<b><a href="../symbols/atropa.html#.setAsOptionalArg">setAsOptionalArg</a></b>
+								<div class="fixedFont">atropa.<b><a href="../symbols/atropa.html#.requires">requires</a></b>(className, requirementFn, errorMessage)
 								</div>
-								<div class="description">Required module, the docs for it are in the <code> atropa-setAsOptionalArg/docs</code> directory where this module  is located.</div>
+								<div class="description">Pushes a requirement check into atropa.data.requirements.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">atropa.<b><a href="../symbols/atropa.html#.setAsOptionalArg">setAsOptionalArg</a></b>(defaultVal, optionalArg)
+								</div>
+								<div class="description">Set default values for optional function parameters.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">atropa.<b><a href="../symbols/atropa.html#.supportCheck">supportCheck</a></b>(className, errorMessage)
+								</div>
+								<div class="description">Checks whether this class has been marked as unsupported and throws an 
+ error if it has.</div>
 							</td>
 						</tr>
 					
@@ -282,9 +309,6 @@ ul.inheritsList
 				
 				
 				
-			
-
-<!-- ============================== methods summary ======================== -->
 			
 <!-- ============================== events summary ======================== -->
 			
@@ -321,34 +345,118 @@ ul.inheritsList
 
 <!-- ============================== field details ========================== -->		
 			
+
+<!-- ============================== method details ========================= -->		
+			
 				<div class="sectionTitle">
-					Field Detail
+					Method Detail
 				</div>
 				
 					<a name=".removeNodeByReference"> </a>
 					<div class="fixedFont">&lt;static&gt; 
 					
 					
-					<span class="light">atropa.</span><b>removeNodeByReference</b>
+					<span class="light">atropa.</span><b>removeNodeByReference</b>(elementReference)
 					
 					</div>
 					<div class="description">
-						Required module, the docs for it are in the <code> atropa-removeNodeByReference/docs</code> directory where this module  is located.
+						Removes DOM Nodes.
 						
+							<br />
+							<i>Defined in: </i> &lt;node_modules/atropa-removeNodeByReference/src/atropa-removeNodeByReference.js&gt;.
 						
+						<br /><i>Author: </i><a href="mailto:matthewkastor@gmail.com">
+ Matthew Christopher Kastor-Inare III </a><br />
+ ☭ Hial Atropa!! ☭.
 					</div>
 					
 					
-
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{DOM Node}</span> <b>elementReference</b>
+									
+								</dt>
+								<dd>A reference to the DOM Node you want
+to remove.</dd>
+							
+							</dl>
+						
+						
+						
+						
 						
 						
 						
 							<dl class="detailList">
 							<dt class="heading">See:</dt>
 							
-							<dd><a href="../../../node_modules/atropa-removeNodeByReference/docs/jsdoc/index.html">../../../node_modules/atropa-removeNodeByReference/docs/jsdoc/index.html</a>, unless you installed this dependency manually.</dd>
+								<dd><a href="../../../AtropaToolboxTests.html?spec=atropa.removeNodeByReference">tests</a></dd>
 							
 							</dl>
+						
+
+					<hr />
+				
+					<a name=".requires"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">atropa.</span><b>requires</b>(className, requirementFn, errorMessage)
+					
+					</div>
+					<div class="description">
+						Pushes a requirement check into atropa.data.requirements. The test
+ tests whether the class is supported in this environment. Sets
+ atropa.data[className]'s support to unsupported and error to errorMessage
+ if the requirementFn returns false. The requirement checks will all be run
+ after the library has loaded.
+						
+							<br />
+							<i>Defined in: </i> &lt;node_modules/atropa-header/src/atropa-header.js&gt;.
+						
+						<br /><i>Author: </i><a href="mailto:matthewkastor@gmail.com">
+ Matthew Christopher Kastor-Inare III </a><br />
+ ☭ Hial Atropa!! ☭.
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>className</b>
+									
+								</dt>
+								<dd>The name of the class.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>requirementFn</b>
+									
+								</dt>
+								<dd>A function to test whether or not the class
+ is supported in this environment. If supported, returns true otherwise
+ return false.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>errorMessage</b>
+									
+								</dt>
+								<dd>The error message to use when this class or its
+ methods are called in unsupported environments. Defaults to:
+ 'The atropa.' + className + ' class is unsupported in this environment.';</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
 						
 						
 
@@ -357,35 +465,126 @@ ul.inheritsList
 					<a name=".setAsOptionalArg"> </a>
 					<div class="fixedFont">&lt;static&gt; 
 					
-					
-					<span class="light">atropa.</span><b>setAsOptionalArg</b>
+					<span class="light">{Mixed}</span>
+					<span class="light">atropa.</span><b>setAsOptionalArg</b>(defaultVal, optionalArg)
 					
 					</div>
 					<div class="description">
-						Required module, the docs for it are in the <code> atropa-setAsOptionalArg/docs</code> directory where this module  is located.
+						Set default values for optional function parameters.
 						
+							<br />
+							<i>Defined in: </i> &lt;node_modules/atropa-setAsOptionalArg/src/atropa-setAsOptionalArg.js&gt;.
 						
+						<br /><i>Author: </i><a href="mailto:matthewkastor@gmail.com">
+ Matthew Christopher Kastor-Inare III </a><br />
+ ☭ Hial Atropa!! ☭.
 					</div>
 					
 					
-
+					
+					<pre class="code"><pre>
+  // To set a default value for an optional parameter
+  function(optionalArg) {
+      var defaultVal = 'hello there!';
+      optionalArg = atropa.setAsOptionalArg(defaultVal, optionalArg);
+      return optionalArg;
+  }
+</pre></pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Mixed}</span> <b>defaultVal</b>
+									
+								</dt>
+								<dd>The default value to set.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Mixed}</span> <b>optionalArg</b>
+									
+								</dt>
+								<dd>A reference to the optional argument.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Mixed}</span> Returns the default value supplied when the optional
+argument is undefined or null. Otherwise, the supplied optional argument
+is returned.</dd>
+							
+							</dl>
 						
 						
 						
 							<dl class="detailList">
 							<dt class="heading">See:</dt>
 							
-							<dd><a href="../../../node_modules/atropa-setAsOptionalArg/docs/jsdoc/index.html">../../../node_modules/atropa-setAsOptionalArg/docs/jsdoc/index.html</a>, unless you installed this dependency manually.</dd>
+								<dd><a href="../../../AtropaToolboxTests.html?spec=atropa.setAsOptionalArg">tests</a></dd>
 							
 							</dl>
+						
+
+					<hr />
+				
+					<a name=".supportCheck"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">atropa.</span><b>supportCheck</b>(className, errorMessage)
+					
+					</div>
+					<div class="description">
+						Checks whether this class has been marked as unsupported and throws an 
+ error if it has.
+						
+							<br />
+							<i>Defined in: </i> &lt;node_modules/atropa-header/src/atropa-header.js&gt;.
+						
+						<br /><i>Author: </i><a href="mailto:matthewkastor@gmail.com">
+ Matthew Christopher Kastor-Inare III </a><br />
+ ☭ Hial Atropa!! ☭.
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>className</b>
+									
+								</dt>
+								<dd>The name of the class.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>errorMessage</b>
+									
+								</dt>
+								<dd>Optional. A custom error message. Defaults to
+ atropa.data[className].error</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
 						
 						
 
 					
 				
-			
-
-<!-- ============================== method details ========================= -->		
 			
 			
 <!-- ============================== event details ========================= -->		
@@ -398,7 +597,7 @@ ul.inheritsList
 <!-- ============================== footer ================================= -->
 		<div class="fineprint" style="clear:both">
 			
-			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sun Sep 29 2013 01:38:35 GMT-0400 (Eastern Daylight Time)
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Wed Jan 01 2014 13:31:28 GMT-0500 (Eastern Standard Time)
 		</div>
 	</body>
 </html>
