@@ -1,6 +1,6 @@
 {
   "name": "atropa-xpath",
-  "version": "2014.1.1",
+  "version": "2014.1.2",
   "description": "A JavaScript library providing an Xpath toolkit for manipulating the DOM.",
   "main": "./src/atropa-xpath.js",
   "directories": {
