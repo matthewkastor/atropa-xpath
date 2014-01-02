@@ -42,7 +42,6 @@ atropa.removeNodeByReference = require('atropa-removeNodeByReference').removeNod
  *  ☭ Hial Atropa!! ☭
  * @version 20130313
  * @namespace An Xpath toolkit for manipulating the DOM.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.xpath">tests</a>
  */
 atropa.xpath = {};
 /**

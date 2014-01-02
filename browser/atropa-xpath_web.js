@@ -156,7 +156,6 @@ atropa.requires(
  * @function
  * @param {DOM Node} elementReference A reference to the DOM Node you want
  * to remove.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.removeNodeByReference">tests</a>
  */
 atropa.removeNodeByReference = function (elementReference) {
     "use strict";
@@ -216,7 +215,6 @@ var atropa = require('atropa-header');
  * @returns {Mixed} Returns the default value supplied when the optional
  * argument is undefined or null. Otherwise, the supplied optional argument
  * is returned.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.setAsOptionalArg">tests</a>
  */
 atropa.setAsOptionalArg = function (defaultVal, optionalArg) {
     "use strict";
@@ -327,7 +325,6 @@ atropa.removeNodeByReference = require('atropa-removeNodeByReference').removeNod
  *  ☭ Hial Atropa!! ☭
  * @version 20130313
  * @namespace An Xpath toolkit for manipulating the DOM.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.xpath">tests</a>
  */
 atropa.xpath = {};
 /**
