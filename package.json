@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-xpath.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-xpath.js ./src/atropa-xpath.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/ node_modules/atropa-removeNodeByReference/src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-xpath/",
   "bugs": "https://github.com/matthewkastor/atropa-xpath/issues",
