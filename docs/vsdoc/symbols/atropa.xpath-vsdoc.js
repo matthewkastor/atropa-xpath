@@ -5,7 +5,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.xpath = {
-        /// <summary></summary>
+        /// <summary>An Xpath toolkit for manipulating the DOM.</summary>
         /// <returns type="atropa.xpath"/>
                 
         processNodesByXpath: function(xpathExpression, contextNode, docref, callback) {

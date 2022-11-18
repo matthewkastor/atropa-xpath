@@ -1,4 +1,7 @@
 /// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/*jslint
+    node: true
+*/
 var atropa = require('atropa-header');
 atropa.setAsOptionalArg = require('atropa-setAsOptionalArg').setAsOptionalArg;
 atropa.removeNodeByReference = require('atropa-removeNodeByReference').removeNodeByReference;
